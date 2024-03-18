@@ -8,4 +8,4 @@ pip3 install -r requirements.txt
 
 python3 app.py
 
-curl -X POST -F "file=@cat.jpg" http://localhost:8080/predict
+curl -X POST -F "image_data=@cat.jpg" http://localhost:8080/predict
