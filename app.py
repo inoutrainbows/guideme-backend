@@ -40,6 +40,7 @@ def predict():
     except Exception as e:
         return jsonify({"error": "An error occurred during prediction: " + str(e)}), 500
 
+
     return jsonify(response)
 
 if __name__ == '__main__':
