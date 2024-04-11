@@ -1,7 +1,5 @@
 Flask
-tensorflow
 numpy
 Pillow
 flask-cors
-tensorflow_hub
 openai
